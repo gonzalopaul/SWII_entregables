@@ -1,4 +1,4 @@
-Validador de JSON mediante Node JS
+Validador de JSON mediante Node JS (AJV)
 
 ```
 npm install
