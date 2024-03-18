@@ -1,0 +1,11 @@
+{
+    "nombreVideojuego": "The Legend of Zelda: Breath of the Wild",
+    "lanzamiento": 2017,
+    "generos": ["Aventura", "Acción", "Mundo abierto"],
+    "plataformas": ["Nintendo Switch", "Wii U"],
+    "clasificacionESRB": "E10+ (Everyone 10+)",
+    "desarrollador": "Nintendo",
+    "duracionEstimada": "50 horas",
+    "multijugador": false
+}
+

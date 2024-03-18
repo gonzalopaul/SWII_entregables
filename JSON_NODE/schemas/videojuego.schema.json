@@ -1,0 +1,56 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "title": "Videojuego",
+    "description": "Información sobre un videojuego",
+    "additionalProperties": true,
+    "required": [
+        "nombreVideojuego",
+        "lanzamiento",
+        "generos",
+        "plataformas",
+        "clasificacionESRB",
+        "desarrollador"
+    ],
+    "properties": {
+        "nombreVideojuego": {
+            "type": "string"
+        },
+        "lanzamiento": {
+            "type": "integer",
+            "description": "Año de lanzamiento del videojuego"
+        },
+        "generos": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "string"
+            },
+            "description": "Géneros a los que pertenece el videojuego"
+        },
+        "plataformas": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "string"
+            },
+            "description": "Plataformas para las que está disponible el videojuego"
+        },
+        "clasificacionESRB": {
+            "type": "string",
+            "description": "Clasificación ESRB del videojuego"
+        },
+        "desarrollador": {
+            "type": "string",
+            "description": "Compañía o persona que desarrolló el videojuego"
+        },
+        "duracionEstimada": {
+            "type": "string",
+            "description": "Tiempo estimado para completar el videojuego"
+        },
+        "multijugador": {
+            "type": "boolean",
+            "description": "Indica si el videojuego ofrece modos multijugador"
+        }
+    }
+}
